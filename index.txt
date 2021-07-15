@@ -1,0 +1,48 @@
+alarm-mode 1:
+	set-config 2 0
+	set-config 3 0
+	set-config 4 1
+	set-config 26 0
+alarm-mode 2:
+	set-config 2 0
+	set-config 3 0
+	set-config 4 0
+	set-config 26 0
+alarm-mode 3:
+	set-config 2 0
+	set-config 3 1
+	set-config 4 0
+	set-config 26 0
+alarm-mode 4:
+	set-config 2 0
+	set-config 3 1
+	set-config 4 0
+	set-config 26 1
+
+modus............: set-config 1
+alarmPoweroff....: set-config 5
+alarm_min........: set-config 6
+alarm_hour.......: set-config 7
+alarm_min_off....: set-config 8
+alarm_hour_off...: set-config 9
+alarm_day........: set-config 10
+alarm_month......: set-config 11
+alarm_weekday....: set-config 12
+alarm_enable.....: set-config 13
+shutdown_enable..: set-config 14
+shutdown_time....: set-config 15
+warning_enable...: set-config 16
+serialless.......: set-config 17
+batlevelshutdown.: set-config 18
+intervalalarn....: set-config 19
+intervalalarnontime..: set-config 20
+intervalalarnofftime.: set-config 21
+onbutton_enable..: set-config 22
+powonbuttontime..: set-config 23
+powersave_enable.: set-config 24
+poweroff_mode....: set-config 25
+poweroff_time....: set-config 27
+wakeupweekend....: set-config 28
+
+modureset........: set-config 0 1
+!modureset.......: set-config 0 0
