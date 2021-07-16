@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import serial
 from time import sleep, clock_settime, CLOCK_REALTIME
 from datetime import datetime
